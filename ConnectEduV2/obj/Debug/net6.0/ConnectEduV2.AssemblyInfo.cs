@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConnectEduV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa73137d794bd19822352de1b7e0fc3ce78696a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45bc1c47e5fdc0bb48e2afeea3be5e054b4df230")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConnectEduV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConnectEduV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
