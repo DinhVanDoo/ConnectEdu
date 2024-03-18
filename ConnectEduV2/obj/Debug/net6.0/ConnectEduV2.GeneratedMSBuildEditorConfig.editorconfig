@@ -1,0 +1,147 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ConnectEduV2
+build_property.RootNamespace = ConnectEduV2
+build_property.ProjectDir = C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen_nganh\PRN221\code\ConnectEduV2\ConnectEduV2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen_nganh\PRN221\code\ConnectEduV2\ConnectEduV2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/CreateDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XENyZWF0ZURlcGFydG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/CreateSchool.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XENyZWF0ZVNjaG9vbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/CreateSemester.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XENyZWF0ZVNlbWVzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/CreateSubject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XENyZWF0ZVN1YmplY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XEluZGV4MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/ListDepartments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XExpc3REZXBhcnRtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/ListSchools.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XExpc3RTY2hvb2xzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/ListSemesters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XExpc3RTZW1lc3RlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Edu/ListSubjects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWR1XExpc3RTdWJqZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/User/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcVXNlclxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Areas/Admin/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Class/ClassDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NcQ2xhc3NEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Class/Classes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NcQ2xhc3Nlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Class/ClassRegistrationList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NcQ2xhc3NSZWdpc3RyYXRpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Class/CreateClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NcQ3JlYXRlQ2xhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Class/MyClasses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NcTXlDbGFzc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Class/UpdateClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NcVXBkYXRlQ2xhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Home/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Profile/MyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVxNeVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/SignUp/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnblVwXFNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/SignUp/VerifyRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnblVwXFZlcmlmeVJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Wallet/MyWallet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2FsbGV0XE15V2FsbGV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinhd/OneDrive - Đại học FPT- FPT University/Documents/Ky_7_chuyen_nganh/PRN221/code/ConnectEduV2/ConnectEduV2/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3irpr212x5

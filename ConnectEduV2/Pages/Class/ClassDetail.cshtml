@@ -1,0 +1,128 @@
+﻿@page
+@model ConnectEduV2.Pages.Class.ClassDetailModel
+@{
+}
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="banner_content text-center">
+                        <h2>Class Details</h2>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+<!--================ Start Course Details Area =================-->
+<section class="course_details_area section_gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 course_details_left"> 
+                <div class="content_wrapper">
+                    <h4 class="title">Describe</h4>
+                    <div class="content">
+                        <p>@Model.ClassDetail.Describe</p>
+                    </div>
+                </div>
+                <div class="content_wrapper">                
+                    <h4 class="title">Registered students</h4>
+                    <div class="content">
+                        <ul class="course_list">
+                            @foreach(var list in Model.classRegistrations)
+                            {
+                                <li class="justify-content-between d-flex">
+                                <p>@list.User.Name - @list.User.Email</p>
+                                <a class="primary-btn text-uppercase" href="#">@list.RegistrationStatus.Name</a>
+                            </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 right-contents">
+                <ul>
+                    <li>
+                        <a class="justify-content-between d-flex" href="#">
+                            <p>Trainer’s Name</p>
+                            <span class="or">@Model.ClassDetail?.User?.Name</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="justify-content-between d-flex" href="#">
+                            <p>Course Fee </p>
+                            <span>@Model.ClassDetail?.Price đ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="justify-content-between d-flex" href="#">
+                            <p>Number of sessions </p>
+                            <span>@Model.ClassDetail?.SeatNumber</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="justify-content-between d-flex" href="#">
+                            <p>Schedule </p>
+                            <span>@Model.ClassDetail.StartTime?.ToString("dd/MM/yyyy HH:mm") to @Model.ClassDetail.EndTime?.ToString("HH:mm")</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="justify-content-between d-flex" href="@Model.ClassDetail.User.FacebookPath">
+                            <p>Facebook: </p>
+
+                            <span>Click me</span>
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a class="justify-content-between d-flex" href="#">
+                            <p>Gmail </p>
+                           
+                            <span>@Model.ClassDetail.User.Email</span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <a asp-page="/Class/ClassDetail" asp-page-handler="Enroll" asp-route-classID="@Model.ClassDetail.Id" class="primary-btn2 text-uppercase enroll rounded-0 text-white">Enroll the course</a>
+
+                <h4 class="title">Reviews</h4>
+                <div class="content">
+                   
+                    <div class="comments-area mb-30" style="margin-top:0px">
+                        @foreach(Models.Feedback fb in Model.feedbacks)
+                        {
+                            <div class="comment-list" style="padding:10px">
+                            <div class="single-comment single-reviews justify-content-between d-flex">
+                                <div class="user justify-content-between d-flex">
+                                    <div class="thumb">
+                                        <img style="width:30px" src="@fb.User.Image" alt="">
+                                    </div>
+                                    <div class="desc">
+                                        <h5>
+                                                <a href="#">@fb.User?.Name</a>
+                                            
+                                        </h5>
+                                        <p class="comment">
+                                                @fb.Comment
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End Course Details Area =================-->
