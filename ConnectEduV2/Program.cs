@@ -6,6 +6,7 @@ using FluentValidation;
 using ConnectEduV2.Filters;
 using ConnectEduV2.Validator;
 using System.Reflection;
+using ConnectEduV2.Hubs;
 
 
 namespace ConnectEduV2
@@ -20,7 +21,7 @@ namespace ConnectEduV2
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddSession();
-
+         
             builder.Services.AddScoped<ConnectEduV1Context>(); // Đăng ký DbContext
             builder.Services.AddScoped(typeof(IRepository<>), typeof(RepositoryBase<>)); // Đăng ký IRepository và RepositoryBase
             builder.Services.AddScoped<ISubjectRepository, SubjectRepository>();
@@ -39,10 +40,15 @@ namespace ConnectEduV2
             builder.Services.AddScoped<MentorFillter>();
             builder.Services.AddScoped<StudentFillter>();
             builder.Services.AddScoped<StudentAndMentorFillter>();
+            builder.Services.AddSignalR();
+
             //validator
             builder.Services.AddScoped<IValidator<User>, UserValidator>();
             // Add services to the container.
-            builder.Services.AddRazorPages();
+            builder.Services.AddRazorPages().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.PropertyNamingPolicy = null;
+            });
 
             var app = builder.Build();
 
@@ -61,6 +67,8 @@ namespace ConnectEduV2
 
             app.UseAuthorization();
             app.UseSession();
+            app.MapHub<ReportHub>("/reportHub");
+            app.MapHub<ChatHub>("/chatHub");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers(); // Bạn cũng cần map controllers ở đây nếu bạn sử dụng controllers

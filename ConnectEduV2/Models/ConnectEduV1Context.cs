@@ -17,6 +17,8 @@ public partial class ConnectEduV1Context : DbContext
 
     public virtual DbSet<Class> Classes { get; set; }
 
+    public virtual DbSet<ClassChat> ClassChats { get; set; }
+
     public virtual DbSet<ClassRegistration> ClassRegistrations { get; set; }
 
     public virtual DbSet<ClassStatus> ClassStatuses { get; set; }
@@ -37,6 +39,8 @@ public partial class ConnectEduV1Context : DbContext
 
     public virtual DbSet<RegistrationStatus> RegistrationStatuses { get; set; }
 
+    public virtual DbSet<Report> Reports { get; set; }
+
     public virtual DbSet<RevenueSharing> RevenueSharings { get; set; }
 
     public virtual DbSet<Role> Roles { get; set; }
@@ -54,7 +58,7 @@ public partial class ConnectEduV1Context : DbContext
     public virtual DbSet<Wallet> Wallets { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
+      {
         var builder = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
@@ -87,6 +91,24 @@ public partial class ConnectEduV1Context : DbContext
             entity.HasOne(d => d.User).WithMany(p => p.Classes)
                 .HasForeignKey(d => d.UserId)
                 .HasConstraintName("FK_Class_User");
+        });
+
+        modelBuilder.Entity<ClassChat>(entity =>
+        {
+            entity.ToTable("ClassChat");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.ChatDate).HasColumnType("datetime");
+            entity.Property(e => e.ClassId).HasColumnName("ClassID");
+            entity.Property(e => e.ClassRegistrationId).HasColumnName("ClassRegistrationID");
+
+            entity.HasOne(d => d.Class).WithMany(p => p.ClassChats)
+                .HasForeignKey(d => d.ClassId)
+                .HasConstraintName("FK_ClassChat_Class");
+
+            entity.HasOne(d => d.ClassRegistration).WithMany(p => p.ClassChats)
+                .HasForeignKey(d => d.ClassRegistrationId)
+                .HasConstraintName("FK_ClassChat_ClassRegistration");
         });
 
         modelBuilder.Entity<ClassRegistration>(entity =>
@@ -242,6 +264,13 @@ public partial class ConnectEduV1Context : DbContext
 
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Name).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<Report>(entity =>
+        {
+            entity.ToTable("Report");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
         });
 
         modelBuilder.Entity<RevenueSharing>(entity =>

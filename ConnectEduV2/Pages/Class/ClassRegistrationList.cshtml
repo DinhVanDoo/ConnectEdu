@@ -29,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12" >
-                <div class="blog_left_sidebar">
+                <div class="blog_left_sidebar">     
                     @foreach (ClassRegistration list in Model.ClassRegistrations)
                     {
                         var popupId = "popup-" + list.Id;
@@ -42,14 +42,15 @@
                                         <li><a href="#">@list.Class?.User?.Name<i class="ti-user"></i></a></li>
                                         <li><a href="#">@list.Date<i class="ti-calendar"></i></a></li>
                                         <li><a href="#">@list.RegistrationStatus?.Name<i class="ti-ruler-pencil"></i></a></li>
-                                        <li><a href="#">@list.Class?.Price<i class="ti-money"></i></a></li>
+                                        <li><a href="#">@list.Class?.Price?.ToString("N0")<i class="ti-money"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="blog_post">
                                     <div class="blog_details">
-                                        <a href="single-blog.html">
+
+                                        <a asp-page="/Class/ClassDetail" asp-route-classID="@list.Class?.Id">
                                             <h2>@list.Class?.Name</h2>
                                         </a>
                                         @if (list.PaymentStatusId == 1)
@@ -84,7 +85,7 @@
                             <form id="ok" class="discountForm" method="post" asp-page="/Class/ClassRegistrationList">
 
                                 <span class="DiscountHeading">Payment</span>
-                                <p class="DiscountSubheading">The amount payable is: @list.Class?.Price VND</p>
+                                <p class="DiscountSubheading">The amount payable is: @list.Class?.Price?.ToString("N0") VND</p>
                                 <p class="DiscountSubheading">Enter password to verify payment.</p>
                                 
                                 <div class="inputContainer">

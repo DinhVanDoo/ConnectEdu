@@ -104,3 +104,7 @@ C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen
 C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen_nganh\PRN221\code\ConnectEduV2\ConnectEduV2\obj\Debug\net6.0\ref\ConnectEduV2.dll
 C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen_nganh\PRN221\code\ConnectEduV2\ConnectEduV2\obj\Debug\net6.0\ConnectEduV2.sourcelink.json
 C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen_nganh\PRN221\code\ConnectEduV2\ConnectEduV2\obj\Debug\net6.0\ConnectE.AB180F43.Up2Date
+C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen_nganh\PRN221\code\ConnectEduV2\ConnectEduV2\bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen_nganh\PRN221\code\ConnectEduV2\ConnectEduV2\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen_nganh\PRN221\code\ConnectEduV2\ConnectEduV2\bin\Debug\net6.0\Microsoft.Extensions.Features.dll
+C:\Users\dinhd\OneDrive - Đại học FPT- FPT University\Documents\Ky_7_chuyen_nganh\PRN221\code\ConnectEduV2\ConnectEduV2\bin\Debug\net6.0\System.IO.Pipelines.dll

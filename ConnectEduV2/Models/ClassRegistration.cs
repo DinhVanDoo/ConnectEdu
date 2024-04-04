@@ -19,6 +19,8 @@ public partial class ClassRegistration
 
     public virtual Class? Class { get; set; }
 
+    public virtual ICollection<ClassChat> ClassChats { get; set; } = new List<ClassChat>();
+
     public virtual Feedback? Feedback { get; set; }
 
     public virtual PaymentStatus? PaymentStatus { get; set; }

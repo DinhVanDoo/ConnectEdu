@@ -107,22 +107,16 @@ namespace ConnectEduV2.Pages.Profile
             return Page();
         }
 
-        public IActionResult OnPostChange(int? id, string? name, int? schoolID, int? departID, IFormFile? image)
+        public IActionResult OnPostChange(int? id, string? name, string? phone, string? facebook, int? schoolID, int? departID, IFormFile? image)
         {
             var includes = new string[] { "Wallet", "School", "Department", "Status" };
             User user = _userRepository.GetSingleByCondition(u => u.Id == id, includes);
-            if (!string.IsNullOrEmpty(name))
-            {
-                user.Name = name;
-            }
-            if (schoolID != null)
-            {
-                user.SchoolId = schoolID;
-            }
-            if (departID != null)
-            {
-                user.DepartmentId = departID;
-            }
+            user.Name = name ?? user.Name;
+            user.SchoolId = schoolID ?? user.SchoolId;
+            user.DepartmentId = departID ?? user.DepartmentId;
+            user.Phone = phone ?? user.Phone;
+            user.FacebookPath = facebook ?? user.FacebookPath;
+
             if (image != null)
             {
                 var uniqueFileName = Guid.NewGuid().ToString() + "_" + image.FileName;
@@ -135,17 +129,22 @@ namespace ConnectEduV2.Pages.Profile
 
                 user.Image = "/img/uploads/" + uniqueFileName;
             }
-            var settings = new JsonSerializerSettings
+            else
+            {
+                user.Image = "/img/avatarmain.jpg";
+            }
+
+            string userJson = JsonConvert.SerializeObject(user, new JsonSerializerSettings
             {
                 ReferenceLoopHandling = ReferenceLoopHandling.Ignore
-            };
-            string userJson = JsonConvert.SerializeObject(user, settings);
+            });
             HttpContext.Session.SetString("User", userJson);
             _userRepository.Update(user);
             _userRepository.SaveChanges();
 
             return RedirectToPage("/Profile/MyProfile");
         }
+
         public IActionResult OnPostChangePassword(string? oldPass, string? newPass)
         {
             if (!string.IsNullOrEmpty(oldPass) && !string.IsNullOrEmpty(newPass))

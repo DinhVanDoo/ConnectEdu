@@ -399,7 +399,7 @@
             </aside>
             <content class="right-trans">
                 <h1> Current Balance </h1>
-                <h4 id="balance"> @Model.Wallet.Amount VND</h4>
+                <h4 id="balance"> @Model.Wallet.Amount.ToString("N0") VND</h4>
                 @using ConnectEduV2.Models
                 <div class="trans-list" style="display: block;">
                     @foreach (DepositTransaction list in Model.DepositTransactions)
@@ -417,7 +417,7 @@
                                 <h5 style="padding-left:0px" class="trans-type-date"> @list.Date</h5>
                             </div>
                             <div class="trans-amt" style="width:fit-content">
-                                <h4 class="trans-amt amt-blue">@list.Amount VND</h4>
+                                <h4 class="trans-amt amt-blue">@list.Amount?.ToString("N0") VND</h4>
                             </div>
                         </div>
                     }

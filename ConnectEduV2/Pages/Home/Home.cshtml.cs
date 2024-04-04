@@ -1,7 +1,9 @@
-﻿using ConnectEduV2.Models;
+﻿using ConnectEduV2.Hubs;
+using ConnectEduV2.Models;
 using ConnectEduV2.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.SignalR;
 using System.Linq.Expressions;
 using X.PagedList;
 
@@ -13,13 +15,16 @@ namespace ConnectEduV2.Pages.Home
         private readonly ISchoolRepositoriy _schoolRepositoriy;
         private readonly IDepartmentRepository _departmentRepository;
         private readonly ISemesterRepository _semesterRepository;
+        private readonly ConnectEduV1Context _context = new ConnectEduV1Context();
+        private readonly IHubContext<ReportHub> _hubContext;
 
-        public HomeModel(ISubjectRepository subjectRepository, ISchoolRepositoriy schoolRepositoriy, IDepartmentRepository departmentRepository, ISemesterRepository semesterRepository)
+        public HomeModel(ISubjectRepository subjectRepository, ISchoolRepositoriy schoolRepositoriy, IDepartmentRepository departmentRepository, ISemesterRepository semesterRepository, IHubContext<ReportHub> hubContext)
         {
             _subjectRepository = subjectRepository;
             _schoolRepositoriy = schoolRepositoriy;
             _departmentRepository = departmentRepository;
             _semesterRepository = semesterRepository;
+            _hubContext = hubContext;
         }
 
         public IPagedList<Subject> Subjects { get; set; }
@@ -42,6 +47,7 @@ namespace ConnectEduV2.Pages.Home
                 (departmentID == null || sub.DerpartmentId == departmentID) &&
                 (semesterID == null || sub.SemesterId == semesterID) &&
                 (key == null || sub.Name.Contains(key)));
+           
 
             var listSub = _subjectRepository.GetMulti(predicate, includes).ToPagedList(pageNumber, pageSize);
 
@@ -75,21 +81,22 @@ namespace ConnectEduV2.Pages.Home
                     SemesterID = semesterID;
                 }
             }
-
-
-            /*Schools = schoolID == null ? _schoolRepositoriy.GetAll().ToList() : _schoolRepositoriy.GetMulti(sch => sch.Id == schoolID).ToList();
-
-            if (schoolID != null)
-            {
-                Departments = departmentID == null ? _departmentRepository.GetMulti(depart => depart.SchoolId == schoolID, includes2).ToList() : _departmentRepository.GetMulti(depart => depart.Id == departmentID).ToList();
-                Semesters = departmentID != null ? _semesterRepository.GetMulti(s => s.DepartmentId == departmentID, includes2).ToList() : null;
-            }*/
-
             Key = key;
-
             Subjects = listSub;
 
             return Page();
+        }
+
+        public async void OnGetReport(string report)
+        {
+            Report rp = new Report
+            {
+                Contents = report
+            };
+            _context.Reports.Add(rp);
+            _context.SaveChanges();
+            await _hubContext.Clients.All.SendAsync("ReceiveReportNotification");
+            // Do nothing
         }
     }
 }

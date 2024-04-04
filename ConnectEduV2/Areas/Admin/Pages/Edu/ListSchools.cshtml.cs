@@ -30,8 +30,7 @@ namespace ConnectEduV2.Areas.Admin.Pages.Edu
                 includes: includes
             ).ToPagedList(page, pageSize);
             SearchKeyword = searchKeyword; // Lưu từ khóa tìm kiếm vào ViewBag
-            Schools = schools;
-          
+            Schools = schools;       
         }
         public IActionResult OnPost(int id, int page)
         {

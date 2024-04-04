@@ -96,7 +96,7 @@ namespace ConnectEduV2.Pages.Class
                     if (semesterID == null)
                     {
                         // Nếu đã chọn trường và ngành nhưng chưa chọn kỳ học, lấy danh sách kỳ học
-                        semesters = _semesterRepository.GetAll().ToList();
+                        semesters = _semesterRepository.GetMulti(x=> x.DepartmentId == departmentID).ToList();
                     }
                     else
                     {
@@ -148,8 +148,12 @@ namespace ConnectEduV2.Pages.Class
                 _classRepository.SaveChanges();
                 ViewData["Success"] = "Class created successfully";
             }
-            schools = _schoolRepositoriy.GetAll().ToList();
+            else
+            {
+             
             ViewData["EmptyError"] = "Something error";
+            }
+           schools = _schoolRepositoriy.GetAll().ToList();
             return Page();
         }
     }

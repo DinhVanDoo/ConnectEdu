@@ -44,10 +44,10 @@
                             <label for="start_date">Start Date:</label>
                             <input type="datetime-local" id="start_date" name="start_date" class="form-control">
                         </div>
-                        <div class="col-lg-6">
+                        @* <div class="col-lg-6">
                             <label for="end_date">End Date:</label>
                             <input type="datetime-local" id="end_date" name="end_date" class="form-control">
-                        </div>
+                        </div> *@
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -75,7 +75,7 @@
                         <img class="img-fluid" src="~/img/courses/default.jpg" alt="" />
                     </div>
                     <div class="course_content">
-                        <span style="top: 28px; width:120px; font-size : 15px; height:33px;line-height: 37px" class="price">@list.Price đ</span>
+                        <span style="top: 28px; width:120px; font-size : 15px; height:33px;line-height: 37px" class="price">@list.Price?.ToString("N0") đ</span>
                         <span class="tag mb-4 d-inline-block">@list.Subject?.Name</span>
                         <h4 class="mb-3">
                             <a asp-page="/Class/ClassDetail" asp-route-classID="@list.Id" >@list.Name</a>
@@ -90,14 +90,14 @@
                             </div>
                             <div class="mt-lg-0 mt-3">
                                 <span class="meta_info mr-4">
-                                    <a href="#"> <i class="ti-user mr-2"></i>25 </a>
+                                    <a href="#"> <i class="ti-user mr-2"></i>@list.ClassRegistrations?.Count </a>
                                 </span>
                                 <span class="meta_info"><a href="#"> <i class="ti-heart mr-2"></i>35 </a></span>
                             </div>
                         </div>
                     </div>
                 </div>
-
+     
             }
             @if (Model.Classes.Count == 0)
             {
@@ -135,7 +135,7 @@
                 }
                 @for (int i = 1; i <= Model.Classes.PageCount; i++)
                 {
-                    <li class="page-item">
+                    <li class="page-item @(i == Model.Classes.PageNumber ? "active" : "")">
                         <a class="page-link genric-btn default" asp-controller="Class" asp-action="Classes"
                        asp-route-start_date="@Model.Start_date"
                        asp-route-end_date="@Model.End_date"

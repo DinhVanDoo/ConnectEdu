@@ -42,8 +42,157 @@
                             </li>
                             }
                         </ul>
+                </div>
+                </div>
+                <div class="comments-area" id="chatarea" style="height: 500px; overflow-y: auto;">
+                    <h4>Class Chat</h4>
+                    @foreach (ConnectEduV2.ViewModel.Chats chats in Model.Chats)
+                    {
+                        <div class="comment-list" style="padding-bottom:10px">
+                            <div class="single-comment justify-content-between d-flex">
+                                <div class="user justify-content-between d-flex">
+                                    <div class="thumb">
+                                        <img style="width:30px; border-radius:10px" src="@chats.Img" alt="">
+                                    </div>
+                                    <div class="desc">
+                                        <div class="d-flex">
+                                        <h5>
+                                            <a href="#">@chats.Name</a>
+                                            </h5>
+                                        
+                                            <p style="margin-left: 10px" class="date">@chats.Date </p>
+                                        </div>
+                                        <p class="comment">
+                                            @chats.Content
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="comment-form">
+                    <h4>Leave a Chat</h4>
+                    <h6 class="error" id="errorChat">@ViewData["ErrorChat"]</h6>
+                    <div id="chatForm">                  
+                        <input hidden name="classid" class="classid" value="@Model.ClassDetail.Id" />
+                        <div class="form-group">
+                            <input type="text" class="form-control chatContent" name="chatContent" required>
+                        </div>
+                        <button class="primary-btn submitChat">Post Chat</button>
                     </div>
                 </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.9/signalr.min.js"></script>
+                <script>
+                    const connection = new signalR.HubConnectionBuilder()
+                        .withUrl("/chatHub")
+                        .build(); 
+                    connection.on("ReceiveChat", function () {
+                        refreshChatList();                        
+                        console.log("refreshed");
+                    });
+
+                    document.addEventListener('DOMContentLoaded', function () {
+                        document.querySelector('.submitChat').addEventListener('click', function () {
+                            const messageInput = document.querySelector('.chatContent');
+                            const idInput = document.querySelector('.classid');
+                            const chatContent = messageInput.value;
+                            const classId = idInput.value;
+                            if (chatContent.trim() === '') {
+                                $('#errorChat').text('Chat content cannot be empty');
+                                return; // Exit the function
+                            }
+                            $.ajax({
+                                url: '/Class/ClassDetail?handler=Send',
+                                method: 'GET',
+                                data: {
+                                    chatContent: chatContent,
+                                    classid: classId
+                                },
+                                success: function (data, textStatus, xhr) {
+                                    if (xhr.status === 200) {
+                                        console.log(data);
+                                        messageInput.value = '';
+                                    } else if (xhr.status === 204) { // No content
+                                        // Handle redirect
+                                        window.location.href = "/Login/Login";
+                                    }
+                                    // Handle backend messages
+                                    if (data.errorChat) {
+                                        $('#errorChat').text(data.errorChat);
+                                    }
+                                },
+                                error: function (xhr, status, error) {
+                                    console.error('Error:', error);
+                                }
+                            });
+                        });
+                    });
+
+                    function scrollChatToBottom() {
+                        var chatArea = document.getElementById('chatarea');
+                        chatArea.scrollTop = chatArea.scrollHeight;
+                    }
+
+                    connection.start().then(function () {
+                        console.log("connected");
+                        scrollChatToBottom();
+                    }).catch(function (err) {
+                        return console.error(err.toString());
+                    });
+
+                    function rebuildArea(data) {
+                        console.log(123, data);
+                        var html = '';
+                        for (var i = 0; i < data.length; i++) {
+                            var chat = data[i];
+                            html += '<div class="comment-list" style="padding-bottom:10px"><div class="single-comment justify-content-between d-flex"><div class="user justify-content-between d-flex"><div class="thumb"><img style="width:30px" src="'
+                                + chat.Img + '" alt=""></div><div class="desc"><div class="d-flex"><h5><a href="#">'
+                                + chat.Name + '</a></h5><p style="margin-left: 10px" class="date">'
+                                + chat.Date + '</p></div><p class="comment">'
+                                + chat.Content + '</p></div></div></div></div>';
+                        }
+                   
+                        return html;
+                    }
+
+                    function refreshChatList() {
+                        // Append the loading spinner to the DOM 
+                        $.ajax({
+                            type: 'GET',
+                            url: "/Class/ClassDetail?handler=Chat&classid=@Model.ClassDetail.Id",
+                            contentType: "application/json",
+                            dataType: "json",
+                        }).done(function (data) {
+                            // Remove the loading spinner from the DOM                       
+                            $("#chatarea").html(rebuildArea(data.newChat));
+                            scrollChatToBottom();
+                        }).fail(function (error) {
+                            // Remove the loading spinner from the DOM
+                            console.log(error);
+                        });
+                    }
+                  
+                    function submitForm() { // Save the current scroll position before form submission var scrollPosition = window.scrollY;
+                        // Return true to allow the form to submit
+                        return true;
+                    }
+
+                    // After form submission (when the page reloads), restore the scroll position
+                    window.onload = function () {
+                        var scrollPosition = sessionStorage.getItem('scrollPosition');
+                        if (scrollPosition !== null) {
+                            window.scrollTo(0, parseInt(scrollPosition));
+                            sessionStorage.removeItem('scrollPosition'); // Remove saved scroll position
+                        }
+                    };
+
+                    // Before leaving the page, save the current scroll position in session storage
+                    window.onbeforeunload = function () {
+                        sessionStorage.setItem('scrollPosition', window.scrollY);
+                    };                 
+                </script>      
+
             </div>
 
 
@@ -58,7 +207,8 @@
                     <li>
                         <a class="justify-content-between d-flex" href="#">
                             <p>Course Fee </p>
-                            <span>@Model.ClassDetail?.Price đ</span>
+                            <span>@Model.ClassDetail?.Price?.ToString("N0") đ</span>
+
                         </a>
                     </li>
                     <li>
@@ -70,7 +220,7 @@
                     <li>
                         <a class="justify-content-between d-flex" href="#">
                             <p>Schedule </p>
-                            <span>@Model.ClassDetail.StartTime?.ToString("dd/MM/yyyy HH:mm") to @Model.ClassDetail.EndTime?.ToString("HH:mm")</span>
+                            <span>@Model.ClassDetail.StartTime?.ToString("dd/MM/yyyy") to @Model.ClassDetail.EndTime?.ToString("dd/MM/yyyy")</span>
                         </a>
                     </li>
                     <li>
@@ -86,6 +236,13 @@
                             <p>Gmail </p>
                            
                             <span>@Model.ClassDetail.User.Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="justify-content-between d-flex" href="#">
+                            <p>Phone </p>
+
+                            <span>@Model.ClassDetail.User.Phone</span>
                         </a>
                     </li>
                 </ul>

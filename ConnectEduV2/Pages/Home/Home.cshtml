@@ -172,7 +172,35 @@
 
             <div class="col-lg-3">
                 <!-- Search input -->
-                <input id="searchInput" type="text" class="form-control" placeholder="Search...">
+                <form method="get" >
+                    <input hidden name="schoolID" value="@Model.SchoolID" />
+                    <input hidden name="departmentID" value="@Model.DepartmentID" />
+                    <input hidden name="semesterID" value="@Model.SemesterID" />
+                    <input id="searchInput" value="@Model.Key" name="key" type="text" class="form-control" placeholder="Search...">
+                </form>
+                <script>
+                    document.getElementById('searchInput').addEventListener('keypress', function (event) {
+                        if (event.key === 'Enter') {
+                            event.preventDefault(); // Prevent the default action (if any)
+                            sessionStorage.setItem('scrollPosition5', window.scrollY); // Store the current scroll position in session storage
+                            this.form.submit(); // Submit the form
+                        }
+                    });
+
+                    // Check if there is a stored scroll position
+                    window.onload = function () {
+                        var storedScrollPosition = sessionStorage.getItem('scrollPosition5');
+                        if (storedScrollPosition !== null) {
+                            // Scroll to the stored position after the page reloads
+                            window.scrollTo(0, storedScrollPosition);
+
+                            // Clear the stored scroll position
+                            sessionStorage.removeItem('scrollPosition5');
+                        }
+                    };
+
+
+                </script>    
             </div>
         </div>
 

@@ -1,4 +1,5 @@
-﻿using ConnectEduV2.Models;
+﻿using ConnectEduV2.Filters;
+using ConnectEduV2.Models;
 using ConnectEduV2.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -6,6 +7,7 @@ using X.PagedList;
 
 namespace ConnectEduV2.Areas.Admin.Pages.User
 {
+   
     public class RegistrationModel : PageModel
     {
         private readonly IUserRepository _userRepository;

@@ -27,6 +27,8 @@ public partial class Class
 
     public int? SeatNumber { get; set; }
 
+    public virtual ICollection<ClassChat> ClassChats { get; set; } = new List<ClassChat>();
+
     public virtual ICollection<ClassRegistration> ClassRegistrations { get; set; } = new List<ClassRegistration>();
 
     public virtual ClassStatus? ClassStatus { get; set; }

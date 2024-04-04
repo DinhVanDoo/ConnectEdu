@@ -35,15 +35,15 @@ namespace ConnectEduV2.Pages.Class
         public IPagedList<ConnectEduV2.Models.Class> Classes { get; set; }
         public IActionResult OnGet(DateTime? start_date, DateTime? end_date, int? subjectID, int pageNumber = 1, int pageSize = 5, string searchKeyword = "")
         {
-            var includes = new string[] { "User", "Subject", "ClassStatus" };
+            var includes = new string[] { "User", "Subject", "ClassStatus", "ClassRegistrations" };
             var classes = _classRepository.GetMulti(
                 classes => classes.SubjectId == subjectID
                             && (string.IsNullOrEmpty(searchKeyword)
                             || classes.Name.Contains(searchKeyword)
                             || classes.User.Email.Contains(searchKeyword)
                             || classes.User.Name.Contains(searchKeyword))
-                            && (start_date == null || classes.StartTime >= start_date)
-                            && (end_date == null || classes.EndTime <= end_date),
+                            && (start_date == null || classes.StartTime >= start_date || classes.EndTime >= start_date)
+                            ,
             includes: includes
                 ).ToPagedList(pageNumber, pageSize);
             Classes = classes;

@@ -39,7 +39,7 @@ namespace ConnectEduV2.Pages.Class
         public string? Password { get; set; }
         public IPagedList<ClassRegistration> ClassRegistrations { get; set; }
         public string? FeedbackValue { get; set; }
-        public IActionResult OnGet(int pageNumber = 1, int pageSize = 5)
+        public IActionResult OnGet(int pageNumber = 1, int pageSize = 3)
         {
             string? accJson = HttpContext.Session.GetString("User");
             User? acc = JsonConvert.DeserializeObject<User>(accJson);
@@ -51,7 +51,7 @@ namespace ConnectEduV2.Pages.Class
             ClassRegistrations = regitstrations;
             return Page();
         }
-        public IActionResult OnGetComplete(int id,int pageNumber = 1, int pageSize = 5 )
+        public IActionResult OnGetComplete(int id,int pageNumber = 1, int pageSize = 3 )
         {
             string? accJson = HttpContext.Session.GetString("User");
             User? acc = JsonConvert.DeserializeObject<User>(accJson);
@@ -113,7 +113,7 @@ namespace ConnectEduV2.Pages.Class
                         Amount = amount - mentorAmount,
                         PaymentStatusId = 1002,
                         Date = DateTime.UtcNow,
-                        WalletId = mentorWallet.Id
+                        WalletId = adminWallet.Id
                     };
                     _depositTransactionRepository.Add(depositOfAdmin);
                     _depositTransactionRepository.SaveChanges();
@@ -144,7 +144,7 @@ namespace ConnectEduV2.Pages.Class
                 }
                 else
                 {
-                    ViewData["ErrorAmount"] = "Số tiền trong tài khoản không đủ.";
+                    ViewData["ErrorAmount"] = "Số tiền trong tài khoản không đủ.";  
                     return OnGet();
                 }
             }
