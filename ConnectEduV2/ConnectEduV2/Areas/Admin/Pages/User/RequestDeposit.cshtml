@@ -1,0 +1,126 @@
+﻿@page
+@model ConnectEduV2.Areas.Admin.Pages.User.RequestDepositModel
+@{
+    Layout = "~/Areas/Admin/Pages/Shared/_AdminLayout.cshtml";
+}
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">List Registration</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard v2</li>
+                    </ol>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="searchKeyword" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <button class="btn btn-primary" onclick="searchUsers()">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function searchUsers() {
+                var searchKeyword = $("#searchKeyword").val();
+                var url = "/User/Registration?page=1&pageSize=@ViewBag.PageSize&searchKeyword=" + searchKeyword;
+                window.location.href = url;
+            }
+        </script>
+
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Simple Full Width Table</h3>
+                    <div class="card-tools">
+                        <ul class="pagination pagination-sm float-right">
+                            @if (Model.DepositTransactions.PageNumber > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="~/Admin/User/RequestDeposit?pageNumber=@(Model.DepositTransactions.PageNumber - 1)@(string.IsNullOrEmpty(Model.SearchKeyword) ? "" : $"&searchKeyword={Model.SearchKeyword}")">&laquo;</a>
+                                </li>
+                            }
+                            @for (int i = 1; i <= Model.DepositTransactions.PageCount; i++)
+                            {
+                                <li class="page-item @(Model.DepositTransactions.PageNumber == i ? "active" : "")">
+                                    <a class="page-link" href="~/Admin/User/RequestDeposit?pageNumber=@i@(string.IsNullOrEmpty(Model.SearchKeyword) ? "" : $"&searchKeyword={Model.SearchKeyword}")">@i</a>
+                                </li>
+                            }
+                            @if (Model.DepositTransactions.PageNumber < Model.DepositTransactions.PageCount)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="~/Admin/User/RequestDeposit?pageNumber=@(Model.DepositTransactions.PageNumber + 1)@(string.IsNullOrEmpty(Model.SearchKeyword) ? "" : $"&searchKeyword={Model.SearchKeyword}")">&raquo;</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- /.card-header -->
+                <div class="card-body p-0">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th style="width: 10px">#</th>
+                                <th>Name</th>
+                                <th>Phone</th>
+                                <th>Date</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int index = 1;
+                            }
+                            @foreach (ConnectEduV2.Models.DepositTransaction list in Model.DepositTransactions)
+                            {
+                                <tr>
+                                    <td>@(index++)</td>
+                                    <td>@list.Wallet.User.Name</td>
+                                    <td>@list.Wallet.User.Phone</td>
+                                    <td>@list.Date</td>
+                                    <td>@list.Amount</td>
+                                    <td>@list.PaymentStatus.Name</td>
+                                    <td>
+                                        <form asp-page="~/Admin/User/RequestDeposit?pageNumber=@Model.DepositTransactions.PageNumber" method="post" style="display:inline-block">
+                                            <input name="action" value="Accept" hidden />
+                                            <button type="submit" class="btn btn-success btn-sm" name="id" value="@list.Id">
+                                                Accept
+                                            </button>
+                                        </form>
+                                        <form asp-page="~/Admin/User/RequestDeposit?pageNumber=@Model.DepositTransactions.PageNumber" method="post" style="display:inline-block">
+                                            <input name="action" value="Cancel" hidden />
+                                            <button type="submit" class="btn btn-danger btn-sm" name="id" value="@list.Id">
+                                                Cancel
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.card-body -->
+            </div>
+        </div>
+    </div>
+</div>

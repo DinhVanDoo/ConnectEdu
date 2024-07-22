@@ -1,0 +1,873 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|c:\\users\\dinhd\\onedrive - \u0111\u1EA1i h\u1ECDc fpt- fpt university\\documents\\ky_7_chuyen_nganh\\prn221\\code\\connecteduv2\\connecteduv2\\areas\\admin\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\class\\classdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\class\\classdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\class\\classdetail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\class\\classdetail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\interfaces\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\interfaces\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\repositories\\classregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\repositories\\classregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\common\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\common\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\class\\classregistrationlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\class\\classregistrationlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\class\\classregistrationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\class\\classregistrationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\user\\listuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\user\\listuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\class\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\class\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\class\\classes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\class\\classes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\class\\myclasses.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\class\\myclasses.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\user\\listuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\user\\listuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\edu\\listsubjects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\edu\\listsubjects.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\profile\\myprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\profile\\myprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\profile\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\profile\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\models\\classchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\models\\classchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\edu\\listsubjects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\edu\\listsubjects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\class\\updateclass.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\class\\updateclass.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\class\\createclass.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\class\\createclass.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\wwwroot\\img\\logo-05.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\wwwroot\\img\\logo-05.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\wwwroot\\img\\logo-04.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\wwwroot\\img\\logo-04.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\wwwroot\\img\\logo-03.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\wwwroot\\img\\logo-03.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\wallet\\mywallet.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\wallet\\mywallet.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\edu\\createdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\edu\\createdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Migrations\\20240521092627_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:ConnectEduV2\\Migrations\\20240521092627_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\wallet\\mywallet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\wallet\\mywallet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\login\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\login\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\signup\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\signup\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\user\\requestdeposit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\user\\requestdeposit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\models\\purchasetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\models\\purchasetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\models\\revenuesharing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\models\\revenuesharing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\user\\requestdeposit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\user\\requestdeposit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\user\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\user\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\areas\\admin\\pages\\user\\registration.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\areas\\admin\\pages\\user\\registration.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\models\\deposittransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\models\\deposittransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\connecteduv2\\pages\\home\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483C3B6-ACA2-4400-8145-FF4277F3C1C8}|ConnectEduV2\\ConnectEduV2.csproj|solutionrelative:connecteduv2\\pages\\home\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:48:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:49:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "ConnectEduV2\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:48:23.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Interfaces\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Interfaces\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Interfaces\\RepositoryBase.cs",
+              "RelativeToolTip": "ConnectEduV2\\Interfaces\\RepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:47:17.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Classes.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\Classes.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Class\\Classes.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\Classes.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Class\\Classes.cshtml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T07:29:26.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassRegistrationList.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\ClassRegistrationList.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Class\\ClassRegistrationList.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\ClassRegistrationList.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Class\\ClassRegistrationList.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADoAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T08:55:45.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Classes.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\Classes.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Class\\Classes.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\Classes.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Class\\Classes.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAADwv1YAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T07:35:28.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Constant.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Common\\Constant.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Common\\Constant.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Common\\Constant.cs",
+              "RelativeToolTip": "ConnectEduV2\\Common\\Constant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:55:55.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Home.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\Home.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Home.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\Home.cshtml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA0wBkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T11:29:41.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Home.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\Home.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Home.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\Home.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T11:30:19.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClassDetail.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\ClassDetail.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Class\\ClassDetail.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\ClassDetail.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Class\\ClassDetail.cshtml.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAQwOAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:16:13.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClassRegistrationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Repositories\\ClassRegistrationRepository.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Repositories\\ClassRegistrationRepository.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Repositories\\ClassRegistrationRepository.cs",
+              "RelativeToolTip": "ConnectEduV2\\Repositories\\ClassRegistrationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:11:07.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\ClassDetail.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Class\\ClassDetail.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\ClassDetail.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Class\\ClassDetail.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAlwB0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T09:16:12.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClassRegistrationList.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\ClassRegistrationList.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Class\\ClassRegistrationList.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\ClassRegistrationList.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Class\\ClassRegistrationList.cshtml.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAuwFsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:56:42.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T09:27:32.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\ListUser.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\ListUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\ListUser.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\ListUser.cshtml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwB0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T02:03:21.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MyClasses.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\MyClasses.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Class\\MyClasses.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\MyClasses.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Class\\MyClasses.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T09:02:23.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ListUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\ListUser.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\ListUser.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\ListUser.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\ListUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T02:01:28.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ListSubjects.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\ListSubjects.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\ListSubjects.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\ListSubjects.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\ListSubjects.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T02:03:28.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ConnectEduV2\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:38:45.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MyProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Profile\\MyProfile.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Profile\\MyProfile.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Profile\\MyProfile.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Profile\\MyProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T08:52:01.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClassChat.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\ClassChat.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Models\\ClassChat.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\ClassChat.cs",
+              "RelativeToolTip": "ConnectEduV2\\Models\\ClassChat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:04:09.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\appsettings.json",
+              "RelativeDocumentMoniker": "ConnectEduV2\\appsettings.json",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\appsettings.json",
+              "RelativeToolTip": "ConnectEduV2\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-16T00:59:50.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ConnectEduV2\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\appsettings.Development.json",
+              "RelativeToolTip": "ConnectEduV2\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-22T02:18:19.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyProfile.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Profile\\MyProfile.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Profile\\MyProfile.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Profile\\MyProfile.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Profile\\MyProfile.cshtml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T08:52:05.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MyWallet.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Wallet\\MyWallet.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Wallet\\MyWallet.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Wallet\\MyWallet.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Wallet\\MyWallet.cshtml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAuwDQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:39:38.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\User.cs",
+              "RelativeToolTip": "ConnectEduV2\\Models\\User.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAA6wC0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T02:06:00.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Home\\Home.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Home\\Home.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Home\\Home.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T06:23:46.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAABwBAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T08:40:23.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateClass.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\UpdateClass.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Class\\UpdateClass.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\UpdateClass.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Class\\UpdateClass.cshtml.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAcwDMAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T01:32:01.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ListSubjects.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\ListSubjects.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\ListSubjects.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\ListSubjects.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\ListSubjects.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T08:45:13.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateDepartment.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\CreateDepartment.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\CreateDepartment.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\CreateDepartment.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\Edu\\CreateDepartment.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T08:42:53.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Logo-03.png",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\wwwroot\\img\\Logo-03.png",
+              "RelativeDocumentMoniker": "ConnectEduV2\\wwwroot\\img\\Logo-03.png",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\wwwroot\\img\\Logo-03.png",
+              "RelativeToolTip": "ConnectEduV2\\wwwroot\\img\\Logo-03.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-18T08:33:25.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateClass.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\CreateClass.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Class\\CreateClass.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Class\\CreateClass.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Class\\CreateClass.cshtml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswD4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:24:53.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Models\\Class.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\Class.cs",
+              "RelativeToolTip": "ConnectEduV2\\Models\\Class.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwCMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T06:35:22.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Logo-04.png",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\wwwroot\\img\\Logo-04.png",
+              "RelativeDocumentMoniker": "ConnectEduV2\\wwwroot\\img\\Logo-04.png",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\wwwroot\\img\\Logo-04.png",
+              "RelativeToolTip": "ConnectEduV2\\wwwroot\\img\\Logo-04.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-18T08:33:30.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Logo-05.png",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\wwwroot\\img\\Logo-05.png",
+              "RelativeDocumentMoniker": "ConnectEduV2\\wwwroot\\img\\Logo-05.png",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\wwwroot\\img\\Logo-05.png",
+              "RelativeToolTip": "ConnectEduV2\\wwwroot\\img\\Logo-05.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-18T08:33:33.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240521092627_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Migrations\\20240521092627_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Migrations\\20240521092627_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Migrations\\20240521092627_InitialCreate.cs",
+              "RelativeToolTip": "ConnectEduV2\\Migrations\\20240521092627_InitialCreate.cs",
+              "ViewState": "AQIAAK4BAAAAAAAAAAAcwLkBAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:26:28.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MyWallet.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Wallet\\MyWallet.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Wallet\\MyWallet.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Wallet\\MyWallet.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Wallet\\MyWallet.cshtml",
+              "ViewState": "AQIAAH8BAAAAAAAAAAAAwKoBAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T07:39:20.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Login\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Login\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Login\\Login.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Login\\Login.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T09:40:58.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Login\\Login.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Login\\Login.cshtml",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAQwL4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T11:36:13.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Program.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Program.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Program.cs",
+              "RelativeToolTip": "ConnectEduV2\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:11:51.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SignUp.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\SignUp\\SignUp.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\SignUp\\SignUp.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\SignUp\\SignUp.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\SignUp\\SignUp.cshtml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowHsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T09:29:37.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\SignUp\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\SignUp\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\SignUp\\SignUp.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\SignUp\\SignUp.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAUwMEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T09:32:13.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RequestDeposit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\RequestDeposit.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\RequestDeposit.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\RequestDeposit.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\RequestDeposit.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T08:06:06.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PurchaseTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\PurchaseTransaction.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Models\\PurchaseTransaction.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\PurchaseTransaction.cs",
+              "RelativeToolTip": "ConnectEduV2\\Models\\PurchaseTransaction.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:14:17.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RevenueSharing.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\RevenueSharing.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Models\\RevenueSharing.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\RevenueSharing.cs",
+              "RelativeToolTip": "ConnectEduV2\\Models\\RevenueSharing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:14:48.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RequestDeposit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\RequestDeposit.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\RequestDeposit.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\RequestDeposit.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\RequestDeposit.cshtml.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAuwGMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:08:26.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\Registration.cshtml",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\Registration.cshtml",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\Registration.cshtml",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\Registration.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAFgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T08:05:19.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Registration.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\Registration.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\Registration.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Areas\\Admin\\Pages\\User\\Registration.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Areas\\Admin\\Pages\\User\\Registration.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:09:12.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DepositTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\DepositTransaction.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Models\\DepositTransaction.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Models\\DepositTransaction.cs",
+              "RelativeToolTip": "ConnectEduV2\\Models\\DepositTransaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:10:20.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Home.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Home\\Home.cshtml.cs",
+              "RelativeDocumentMoniker": "ConnectEduV2\\Pages\\Home\\Home.cshtml.cs",
+              "ToolTip": "C:\\Users\\dinhd\\OneDrive - \u0110\u1EA1i h\u1ECDc FPT- FPT University\\Documents\\Ky_7_chuyen_nganh\\PRN221\\code\\ConnectEduV2\\ConnectEduV2\\Pages\\Home\\Home.cshtml.cs",
+              "RelativeToolTip": "ConnectEduV2\\Pages\\Home\\Home.cshtml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDMAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:23:51.65Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+﻿@page
+@model ConnectEduV2.Pages.SignUp.SignUpModel
+@{
+}
+<style>
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #ffffff;
+        padding: 30px;
+        width: 450px;
+        border-radius: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    ::placeholder {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .form button {
+        align-self: flex-end;
+    }
+
+    .flex-column > label {
+        color: #151717;
+        font-weight: 600;
+    }
+
+    .inputForm {
+        border: 1.5px solid #ecedec;
+        border-radius: 10px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .input {
+        margin-left: 10px;
+        border-radius: 10px;
+        border: none;
+        width: 85%;
+        height: 100%;
+    }
+
+        .input:focus {
+            outline: none;
+        }
+
+    .inputForm:focus-within {
+        border: 1.5px solid #2d79f3;
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+        .flex-row > div > label {
+            font-size: 14px;
+            color: black;
+            font-weight: 400;
+        }
+
+    .span {
+        font-size: 14px;
+        margin-left: 5px;
+        color: #2d79f3;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .button-submit {
+        margin: 20px 0 10px 0;
+        background-color: #151717;
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        height: 50px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+        .button-submit:hover {
+            background-color: #252727;
+        }
+
+    .p {
+        text-align: center;
+        color: black;
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .btn {
+        margin-top: 10px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        gap: 10px;
+        border: 1px solid #ededef;
+        background-color: white;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    }
+
+        .btn:hover {
+            border: 1px solid #2d79f3;
+        }
+</style>
+<section class="home_banner_area">
+    <div class="banner_inner">
+        <div class="container" style="justify-content:center; margin:auto; margin-top:250px ">
+            <form method="post" class="form" style="justify-content:center; margin: auto;" enctype="multipart/form-data" asp-page="/SignUp/Signup" asp-page-handler="OnPost">
+
+                @Html.ValidationSummary(true)
+                @ViewData["ErrorEmail"]
+                <div class="flex-column">
+                    <label>Email</label>
+                </div>
+                <div class="inputForm">
+                    <input asp-for="Email" class="input" placeholder="Enter email" />
+                </div>
+                <span asp-validation-for="Email" class="text text-danger"></span>
+
+                <div class="flex-column">
+                    <label>Password</label>
+                </div>
+                <div class="inputForm">
+                    <input asp-for="Password" class="input" placeholder="Enter Password" type="password" />
+                </div>
+                <span asp-validation-for="Password" class="text text-danger"></span>
+
+                <div class="flex-column">
+                    <label>Name</label>
+                </div>
+                <div class="inputForm">
+                    <input asp-for="Name" class="input" placeholder="Enter Name" />
+                </div>
+                <span asp-validation-for="Name" class="text text-danger"></span>
+
+                <div class="flex-column">
+                    <label>Phone</label>
+                </div>
+                <div class="inputForm">
+                    <input asp-for="Phone" class="input" placeholder="Enter Phone Number" />
+                </div>
+                <span asp-validation-for="Phone" class="text text-danger"></span>
+
+                <div class="flex-column">
+                    <label>Avatar</label>
+                </div>
+                <div class="inputForm">
+                    <input type="file" asp-for="AvatarForm" class="input" placeholder="Choose Avatar" />
+                </div>
+
+                <div class="flex-column" style="display: flex;">
+                    <div>
+                        <select asp-for="SchoolId" class="form-control" id="schoolSelect">
+                            @foreach (var item in Model.School)
+                            {
+                                <option value="@item.Id">@item.Name</option>
+                            }
+                        </select>
+                    </div>
+                    <br />
+                    <div>
+                        <select asp-for="DepartmentId" class="form-control" id="departmentSelect">
+                            @foreach (var item in Model.Departments)
+                            {
+                                <option value="@item.Id">@item.Name</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <button class="button-submit" type="submit">Sign Up</button>
+
+            </form>
+        </div>
+    </div>
+</section>
